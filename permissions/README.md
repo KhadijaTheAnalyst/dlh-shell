@@ -68,3 +68,9 @@
 - **Usage**: `./12-directory_permissions`
 - **Result**: Directory created with permissions `drwxr-x--x` (751)
 - **Breakdown**: Owner=rwx(7), Group=r-x(5), Other=--x(1)
+### 13-change_group
+- **Purpose**: Changes the group owner of file `hello` to `school`
+- **Command**: `chgrp school hello`
+- **Usage**: `sudo ./13-change_group`
+- **Requirements**: Must be run with sudo (root privileges)
+- **Note**: The `school` group must exist on the system
