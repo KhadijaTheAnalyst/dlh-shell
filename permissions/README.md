@@ -88,3 +88,10 @@
 - **Requirements**: Must be run with sudo (root privileges)
 - **Important**: The `-h` flag affects the symbolic link itself, not its target
 - **Note**: Without `-h`, it would change the target file's owner instead
+### 16-if_only
+- **Purpose**: Changes owner of `hello` to `vincent` only if owned by `guillaume`
+- **Command**: `find hello -user guillaume -exec chown vincent {} +`
+- **Usage**: `sudo ./16-if_only`
+- **Requirements**: Must be run with sudo (root privileges)
+- **Logic**: find checks if owner is guillaume, if yes then changes to vincent
+- **Method**: Uses find with -user filter and -exec (no semicolons allowed)
