@@ -25,7 +25,6 @@
 - **Command**: `chmod u+x hello`
 - **Usage**: `./5-execute`
 - **Permissions change**: `-rw-rw-r--` → `-rwxrw-r--`
-eof
 ### 6-multiple_permissions
 - **Purpose**: Adds execute to owner and group, read to other for file `hello`
 - **Command**: `chmod u+x,g+x,o+r hello`
