@@ -16,3 +16,7 @@
 - **Command**: `chown betty hello`
 - **Usage**: `sudo ./3-new_owner`
 - **Requirements**: Must be run with sudo (root privileges)
+### 4-empty
+- **Purpose**: Creates an empty file called `hello`
+- **Command**: `touch hello`
+- **Usage**: `./4-empty`
