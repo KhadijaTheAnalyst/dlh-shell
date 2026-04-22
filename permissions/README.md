@@ -43,3 +43,10 @@
 - **Permissions**: `-------rwx` (007)
 - **Note**: Owner and group have NO permissions, others have rwx
 - **Method**: Uses octal (numeric) to avoid comma restriction
+### 9-John_Doe
+- **Purpose**: Sets file `hello` to specific permissions (-rwxr-x-wx)
+- **Command**: `chmod 753 hello`
+- **Usage**: `./9-John_Doe`
+- **Permissions**: `-rwxr-x-wx` (753)
+- **Breakdown**: Owner=rwx(7), Group=r-x(5), Other=-wx(3)
+- **Method**: Uses octal (numeric) to avoid comma restriction
