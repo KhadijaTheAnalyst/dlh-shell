@@ -56,3 +56,9 @@
 - **Usage**: `./10-mirror_permissions`
 - **Note**: Works with ANY permissions - dynamically copies from olleh to hello
 - **Method**: Uses `--reference` flag to mirror permissions
+### 11-directories_permissions
+- **Purpose**: Adds execute permission to all subdirectories, leaves files unchanged
+- **Command**: `find . -type d -exec chmod a+x {} +`
+- **Usage**: `./11-directories_permissions`
+- **Effect**: Directories get execute added (a+x), regular files untouched
+- **Method**: Uses `find` to filter directories only, batches with `+`
