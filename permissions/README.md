@@ -31,3 +31,9 @@ eof
 - **Command**: `chmod u+x,g+x,o+r hello`
 - **Usage**: `./6-multiple_permissions`
 - **Permissions change**: `-rw-r-----` (640) → `-rwxr-xr--` (754)
+### 7-everybody
+- **Purpose**: Adds execute permission to owner, group, and other for file `hello`
+- **Command**: `chmod a+x hello`
+- **Usage**: `./7-everybody`
+- **Permissions change**: `-rw-r-----` (640) → `-rwxr-x--x` (751)
+- **Note**: Uses `a+x` (all) instead of commas to avoid restriction
