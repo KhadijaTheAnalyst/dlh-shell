@@ -62,3 +62,9 @@
 - **Usage**: `./11-directories_permissions`
 - **Effect**: Directories get execute added (a+x), regular files untouched
 - **Method**: Uses `find` to filter directories only, batches with `+`
+### 12-directory_permissions
+- **Purpose**: Creates a directory called `my_dir` with permissions 751
+- **Command**: `mkdir -m 751 my_dir`
+- **Usage**: `./12-directory_permissions`
+- **Result**: Directory created with permissions `drwxr-x--x` (751)
+- **Breakdown**: Owner=rwx(7), Group=r-x(5), Other=--x(1)
