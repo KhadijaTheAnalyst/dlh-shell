@@ -37,3 +37,16 @@ eof
 - **Usage**: `./7-everybody`
 - **Permissions change**: `-rw-r-----` (640) → `-rwxr-x--x` (751)
 - **Note**: Uses `a+x` (all) instead of commas to avoid restriction
+### 7-everybody
+- **Purpose**: Adds execute permission to owner, group, and other for file `hello`
+- **Command**: `chmod a+x hello`
+- **Usage**: `./7-everybody`
+- **Permissions change**: `-rw-r-----` (640) → `-rwxr-x--x` (751)
+- **Note**: Uses `a+x` (all) instead of commas to avoid restriction
+eof
+### 7-everybody
+- **Purpose**: Adds execute permission to owner, group, and other for file `hello`
+- **Command**: `chmod a+x hello`
+- **Usage**: `./7-everybody`
+- **Permissions change**: `-rw-r-----` (640) → `-rwxr-x--x` (751)
+- **Note**: Uses `a+x` (all) instead of commas to avoid restriction
