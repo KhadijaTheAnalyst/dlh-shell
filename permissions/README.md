@@ -20,3 +20,9 @@
 - **Purpose**: Creates an empty file called `hello`
 - **Command**: `touch hello`
 - **Usage**: `./4-empty`
+### 5-execute
+- **Purpose**: Adds execute permission to the owner of file `hello`
+- **Command**: `chmod u+x hello`
+- **Usage**: `./5-execute`
+- **Permissions change**: `-rw-rw-r--` → `-rwxrw-r--`
+eof
