@@ -50,3 +50,9 @@
 - **Permissions**: `-rwxr-x-wx` (753)
 - **Breakdown**: Owner=rwx(7), Group=r-x(5), Other=-wx(3)
 - **Method**: Uses octal (numeric) to avoid comma restriction
+### 10-mirror_permissions
+- **Purpose**: Sets file `hello` to have same permissions as file `olleh`
+- **Command**: `chmod --reference=olleh hello`
+- **Usage**: `./10-mirror_permissions`
+- **Note**: Works with ANY permissions - dynamically copies from olleh to hello
+- **Method**: Uses `--reference` flag to mirror permissions
