@@ -74,3 +74,10 @@
 - **Usage**: `sudo ./13-change_group`
 - **Requirements**: Must be run with sudo (root privileges)
 - **Note**: The `school` group must exist on the system
+### 14-change_owner_and_group
+- **Purpose**: Changes owner to `vincent` and group to `staff` for all files/directories
+- **Command**: `chown -R vincent:staff .`
+- **Usage**: `sudo ./14-change_owner_and_group`
+- **Requirements**: Must be run with sudo (root privileges)
+- **Note**: The `-R` flag recursively changes all files and subdirectories
+- **Note**: Users `vincent` and group `staff` must exist on the system
