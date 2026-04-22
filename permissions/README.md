@@ -36,3 +36,10 @@
 - **Usage**: `./7-everybody`
 - **Permissions change**: `-rw-r-----` (640) → `-rwxr-x--x` (751)
 - **Note**: Uses `a+x` (all) instead of commas to avoid restriction
+### 8-James_Bond
+- **Purpose**: Sets permissions so only other users have all permissions
+- **Command**: `chmod 007 hello`
+- **Usage**: `./8-James_Bond`
+- **Permissions**: `-------rwx` (007)
+- **Note**: Owner and group have NO permissions, others have rwx
+- **Method**: Uses octal (numeric) to avoid comma restriction
