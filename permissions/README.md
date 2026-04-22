@@ -81,3 +81,10 @@
 - **Requirements**: Must be run with sudo (root privileges)
 - **Note**: The `-R` flag recursively changes all files and subdirectories
 - **Note**: Users `vincent` and group `staff` must exist on the system
+### 15-symbolic_link_permissions
+- **Purpose**: Changes owner to `vincent` and group to `staff` for symbolic link `_hello`
+- **Command**: `chown -h vincent:staff _hello`
+- **Usage**: `sudo ./15-symbolic_link_permissions`
+- **Requirements**: Must be run with sudo (root privileges)
+- **Important**: The `-h` flag affects the symbolic link itself, not its target
+- **Note**: Without `-h`, it would change the target file's owner instead
