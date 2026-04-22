@@ -11,3 +11,8 @@
 - **Purpose**: Prints all the groups the current user is part of
 - **Command**: `groups`
 - **Usage**: `./2-groups`
+### 3-new_owner
+- **Purpose**: Changes the owner of the file `hello` to user `betty`
+- **Command**: `chown betty hello`
+- **Usage**: `sudo ./3-new_owner`
+- **Requirements**: Must be run with sudo (root privileges)
